@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { firestore } from "@/firebase";
@@ -135,7 +136,7 @@ export default function Home() {
           alignItems="center"
           justifyContent="center"
         >
-          <Typography variant="h2" color="#333">
+          <Typography variant="h2" color="#009B77">
             Inventory Items
           </Typography>
         </Box>
